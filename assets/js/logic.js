@@ -41,9 +41,11 @@ function checkAnswer(answer){
     if(answer === questions[currentQuestion].answer){
         score++;
         document.getElementById("feedback").innerHTML = "Correct!";
+        document.getElementById("right").play();
     } else {
         timer -= 10; // subtract 10 seconds from the clock
         document.getElementById("feedback").innerHTML = "Wrong!";
+        document.getElementById("wrong").play();
     }
     document.getElementById("feedback").classList.remove("hide");
     setTimeout(() => {
@@ -57,8 +59,6 @@ function checkAnswer(answer){
         displayQuestion();
     }
 }
-
-
 
 function endQuiz(){
     clearInterval(timerId);
@@ -78,8 +78,6 @@ function endQuiz(){
     }
     document.getElementById("highscores").innerHTML = highscoresList;
 }
-
-
 
 function saveScore(){
     //get initials and score

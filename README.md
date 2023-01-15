@@ -80,9 +80,9 @@ This challenge is graded based on the following criteria:
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* The URL of the functional, deployed application: https://erickuby.github.io/Multiple-Choice-Quiz/
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project: https://github.com/Erickuby/Multiple-Choice-Quiz/edit/master/README.md
 
 ---
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
